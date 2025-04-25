@@ -1,96 +1,70 @@
-# 🚀 **Diagnosis of Diabetic Retinopathy using Multi-Model Approach (ML & DL)**
-
-**📆 Project Duration:** 3 months  
-👥 **Team Members:** 2  
-
-## 📝 **Project Overview**  
-
-This project aims to develop an advanced **retinal image classification system** to **diagnose Diabetic Retinopathy** (DR) in its early stages. By leveraging the power of **Machine Learning (ML)** and **Deep Learning (DL)**, we have implemented a **multi-model approach** to provide accurate and reliable DR detection, helping to prevent vision loss and improve patient outcomes.
-
-
-####  MODEL INTERFACE
-<img src="project UI/Screenshot 2025-02-18 151627.png" width="900">
-
-
-#### PREDICTED OUTPUT
-<img src="project UI/Screenshot 2025-02-18 151655.png" width="900">
-  
-
-
-### 🛠️ **Key Technologies Used**  
-
-🔹 **Convolutional Neural Networks (CNN)** for feature extraction  
-🔹 **Support Vector Machine (SVM)** for classification  
-🔹 **Ensemble Learning** for improved performance  
-🔹 **Gradio Interface** for real-time diagnostic visualization  
+# 🚀 RETINOPATHY PREDICTION USING ENSEMBLE LEARNING
 
 ---
 
-## 🔍 **Problem Statement**  
+## 📌 QUICK SUMMARY
 
-Diabetic Retinopathy is a complication of diabetes that can lead to vision loss if not detected early. Manual examination of retinal images is **⏳ time-consuming** and requires **👨‍⚕️ expert knowledge**. Therefore, an **automated system** is needed for early detection, allowing for quick and accurate diagnoses, leading to **timely interventions** and **better treatment outcomes**.  
-
----
-
-## ⚙️ **Features**  
-
-✅ **CNN for Feature Extraction** – Extracts relevant features from retinal images to enhance classification accuracy.  
-✅ **SVM Classification** – Classifies images into different stages of diabetic retinopathy.  
-✅ **Ensemble Learning** – Combines multiple models to increase accuracy and reduce overfitting.  
-✅ **Real-Time Diagnostics** – Provides a **Gradio-based UI** for users to upload images and receive **instant** diagnostic results.  
+A smart AI-based system for early detection of **Diabetic Retinopathy (DR)** using **Deep Learning** and **Machine Learning**. It leverages image processing and ensemble models to assist doctors with real-time, accurate diagnostics.
 
 ---
 
-## 🛠️ **Installation**  
+## 💡 KEY HIGHLIGHTS
 
-📥 Clone the repository:  
+- 🧠 **CNN** for feature extraction from retinal images  
+- 🎯 **SVM** for effective classification  
+- 🔗 **Ensemble Learning** for improved accuracy  
+- 🖼️ **Gradio Interface** for real-time diagnosis with image upload  
+
+---
+
+## ❓ WHY THIS PROJECT
+
+- 👁️ DR is a leading cause of blindness in diabetic patients  
+- ⏱️ Manual diagnosis is slow and expertise-dependent  
+- ⚙️ Our solution automates DR detection to enable faster treatment decisions  
+
+---
+
+## 🛠️ TECHNOLOGIES USED
+
+- 🐍 Python (TensorFlow / Keras)  
+- 📦 Scikit-learn  
+- 🧠 Convolutional Neural Networks (CNN)  
+- 🧮 Support Vector Machines (SVM)  
+- 🌐 Gradio for UI  
+- 🔁 Ensemble Learning Techniques  
+
+---
+
+## ⚙️ HOW IT WORKS
+
+1. 🧹 **Data Preprocessing**  
+   - Resizing, normalization, and augmentation of retinal images  
+2. 🧠 **CNN Model**  
+   - Extracts key features from retinal images  
+3. 🎯 **SVM Classification**  
+   - Classifies images into DR severity levels  
+4. 🔗 **Ensemble Model**  
+   - Combines predictions for enhanced accuracy  
+5. 🖼️ **Gradio App**  
+   - Upload an image and get instant results
+
+---
+
+## 📊 MODEL PERFORMANCE
+
+| Metric     | Score |
+|------------|-------|
+| ✅ Accuracy | 95%   |
+| 📌 Precision | 92%   |
+| 🔄 Recall   | 94%   |
+| 📊 F1 Score | 93%   |
+
+> 🧪 Achieved high accuracy on unseen test data with consistent results in early-stage DR detection.
+
+---
+
+## 🧪 INSTALLATION
+
 ```bash
- git clone https://github.com/shreyasskrishna/Diagnosis_of_Diabetic_Retinopathy/tree/testing
-```
-
-## 🔬 **Model Training**  
-
-1️⃣ **🖼 Data Preprocessing** – The dataset of retinal images undergoes **resizing, normalization, and augmentation** to improve model performance.  
-2️⃣ **📊 CNN Architecture** – A custom CNN model was trained to capture intricate retinal image features.  
-3️⃣ **🎯 SVM for Classification** – Extracted features are used by the SVM classifier to predict **disease severity**.  
-4️⃣ **🧠 Ensemble Learning** – Multiple classifiers were combined for a **robust** and **accurate** prediction.  
-
----
-
-## 📊 **Performance Metrics**  
-
-📌 **Accuracy**: 🎯 95%  
-📌 **Precision**: ✅ 92%  
-📌 **Recall**: 🔄 94%  
-📌 **F1 Score**: 📈 93%  
-
-Our models were tested on a separate dataset and achieved **high accuracy** in **early-stage DR detection**.  
-
----
-
-## 🤝 **Contributing**  
-
-We **welcome contributions** from the community! 🌍💡 If you have suggestions or improvements, feel free to:  
-
-🔹 **Fork** this repository  
-🔹 **Create a feature branch** (`git checkout -b feature-branch`)  
-🔹 **Commit your changes** (`git commit -am 'Add new feature'`)  
-🔹 **Push to your branch** (`git push origin feature-branch`)  
-🔹 **Submit a Pull Request**  
-
----
-
-## 📄 **License**  
-
-📜 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.  
-
-
-## 🌟 **Acknowledgments**  
-
-🙏 Special thanks to all contributors!  
-🔹 This project utilizes **[Gradio](https://gradio.app/)** for the interactive UI.  
-🔹 We used the **Diabetic Retinopathy Detection Dataset** for model training and evaluation.  
-
----
-
-> ✨ **"A small change in the right direction can save vision."** 👁️  
+git clone https://github.com/shreyasskrishna/Diagnosis_of_Diabetic_Retinopathy/tree/testing
